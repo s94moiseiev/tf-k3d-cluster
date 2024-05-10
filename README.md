@@ -33,6 +33,8 @@ resource "k3d_cluster" "demo" {
     switch_current_context    = true
   }
 }
+```
+
 4. Define the required variables in a `variables.tf` file or provide them directly in your main configuration file.
 
    Example `variables.tf`:
