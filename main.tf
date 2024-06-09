@@ -1,7 +1,3 @@
-provider "k3d" {
-  # example configuration here
-}
-
 resource "k3d_cluster" "demo" {
   name    = var.K3D_CLUSTER_NAME
   servers = var.K3D_NUM_SERVERS
